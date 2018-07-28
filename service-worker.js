@@ -1,11 +1,11 @@
-var CACHE_NAME = 'my-site-cache-v1';
+var CACHE_NAME = 'my-site-cache-v2';
 var urlsToCache = [
-    // "/AustinBreslinDev/mousetrap.js",
-    "/AustinBreslinDev/favicon.ico",
-    "/AustinBreslinDev/index.html",
-    "/AustinBreslinDev/contact/index.html",
-    "/AustinBreslinDev/style.css",
-    "/AustinBreslinDev/script.js",
+    // "/mousetrap.js",
+    "/favicon.ico",
+    "/index.html",
+    "/contact/index.html",
+    "/style.css",
+    "/script.js",
     "https://cdn.polyfill.io/v2/polyfill.min.js",
     "https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.4.0/highlight.min.js",
     "https://cdnjs.cloudflare.com/ajax/libs/picturefill/3.0.3/picturefill.min.js",
