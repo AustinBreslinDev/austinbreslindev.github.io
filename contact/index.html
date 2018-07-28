@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en" manifest="/resourcelist.manifest">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="description" content="A blog about the experiences of AustinBreslinDev" />
+    <meta name="author" content="Austin Breslin" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="theme-color" content="#ee6e73"/>
+    <title> Contact |  AustinBreslinDev</title>
+    <link rel="author" href="/humans.txt" />
+    <link rel="alternate" type="application/rss+xml" title="RSS Feed" href="/feed.xml" />
+    <link rel="manifest" href="/manifest.json">
+
+    <!-- Start of third party -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link rel="stylesheet" href="https://unpkg.com/purecss@1.0.0/build/pure-min.css" integrity="sha384-nn4HPE8lTHyVtfCBi5yW9d20FjT8BJwUXyWZT9InLYax14RDjBj46LmSztkmNP9w" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://unpkg.com/purecss@1.0.0/build/grids-responsive-min.css">
+    <script src="https://cdn.polyfill.io/v2/polyfill.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.4.0/styles/default.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.4.0/highlight.min.js"></script>
+    <!-- End of third party -->
+
+    <link rel="stylesheet" href="/style.css" />
+</head>
+
+<body class="austinBreslinDev">
+    <div class="footer-hack">
+        <div id="skip" class="">
+            <a href="">
+                Type "skip" using your keyboard at any time to return or skip to the main content of the page.
+            </a>
+            <p aria-hidden="false" style="display: none;">
+                Enter <kbd>?</kbd> on your keyboard to see the list of available keyboard shortcuts.
+            </p>
+        </div>
+    
+        <aside class="popup modal pure-u-1-1 hidden" aria-hidden="true" hidden="true" id="keyboardShortcuts" aria-live="polite" aria-busy="true">
+            <div aria-hidde="true" hidden="true" id="keyboardShortcutTemplate">
+                <li class="collection-item">
+                    <span class="badge">
+                        <kbd>skip</kbd>
+                    </span>
+                    <div>Skip to main section of page</div>
+                </li>
+            </div>
+            <div class="modal-content">
+                <ul class="collection with-header">
+                    <li class="collection-header">
+                        <h4>List Of Keyboard Shortcuts</h4>
+                    </li>
+                    <li class="collection-item">
+                        <span class="badge">
+                            Keys
+                        </span>
+                        <div>Description</div>
+                    </li>
+                </ul>
+            </div>
+        </aside>
+    
+        <nav class="custom-menu-wrapper">
+            <div class="pure-menu custom-menu custom-menu-top">
+                <a href="/" class="pure-menu-heading custom-menu-brand">AustinBreslinDev</a>
+                <a href="#" class="custom-menu-toggle" id="toggle"><s class="bar"></s><s class="bar"></s></a>
+            </div>
+            <div class="pure-menu pure-menu-horizontal pure-menu-scrollable custom-menu custom-menu-bottom custom-menu-tucked" id="tuckedMenu">
+                <div class="custom-menu-screen"></div>
+                <ul class="pure-menu-list">
+                    <li class="pure-menu-item">
+                        <a href="/" class="pure-menu-link">Home</a>
+                    </li>
+                    <li class="pure-menu-item">
+                        <a href="/about" class="pure-menu-link">About</a>
+                    </li>
+                    <li class="pure-menu-item">
+                        <a href="/contact" class="pure-menu-link">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    
+        <main class="pure-u-1-1">
+            <div class="pure-g content-container">
+    <div class="pure-u-1">
+        <section>
+            <h4>Please fill in the form below to contact us.</h4>
+        </section>
+    </div>
+    <form class="pure-u-1 pure-form-stacked pure-form-aligned" id="contactUsForm">
+        <div class="pure-u-1">
+            <fieldset class="pure-group">
+                <label for="first_name">
+                    What you want to be called in our response to you.
+                    <div class="pure-u-1">
+                        <i aria-hidden="true" class="material-icons left">person</i>
+                        <input style="width: 80%" name="first_name" id="first_name" type="text" class="pure-input-24-25" required>
+                    </div>
+                </label>
+                <span class="helper-text" data-error="This does not look like a name to us." data-success="">Enter in your first name.</span>
+            </fieldset>
+        </div>
+        <div class="pure-u-1">
+            <fieldset class="pure-group">
+                <label for="email">
+                    Email
+                    <div class="pure-u-1">
+                        <i aria-hidden="true" class="material-icons left">email</i>
+                        <input style="width: 80%" placeholder="you@example.com" id="email" name="email" type="email" required class="pure-input-24-24">
+                    </div>
+                </label>
+                <span class="helper-text" data-error="This does not look like an email to us." required data-success="">Enter in your email.</span>
+            </fieldset>
+        </div>
+        <div class="pure-u-1">
+            <fieldset class="pure-group">
+                <label for="message">
+                    Message
+                    <div class="pure-u-1">
+                        <i aria-hidden="true" class="material-icons left">mode_edit</i>
+                        <textarea style="width: 80%" item-height="20" id="message" class="pure-input-24-25" required></textarea>
+                    </div>
+                </label>
+                <span class="helper-text">What do you want to tell us?</span>
+                <span class="helper-text">You can go to new lines if needed.</span>
+            </fieldset>
+        </div>
+        <div class="pure-u-1">
+            <fieldset class="pure-group">
+                <div class="inline">
+                    <button type="submit" id="emailSendButton" class="pure-button">
+                        <i aria-hidden="true" class="material-icons left">send</i>
+                        Confirm
+                    </button>
+                </div>
+            </fieldset>
+        </div>
+    </form>
+</div>
+        </main>
+    </div>
+
+
+    <footer class="pure-u-1-1">
+        <div class="footer-container">
+            <div class="footer-copyright">
+                <div class="container">
+                    <p>
+                        &copy; 2018 Austin Breslin
+                    </p>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+<script src="/script.js"></script>
+</html>

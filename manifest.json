@@ -1,0 +1,15 @@
+{
+  "short_name": "AustinBreslinDev",
+  "name": "AustinBreslin",
+  "icons": [
+    {
+      "src":"/favicon.ico",
+      "sizes": "small",
+      "type": "image/ico"
+    }
+  ],
+  "start_url": "/index.html.back",
+  "background_color": "#ee6e73",
+  "theme_color": "#ee6e73",
+  "display": "standalone"
+}
