@@ -3,48 +3,48 @@
 	<channel>
 		<title>AustinBreslinDev</title>
 		<description>A blog about the experiences of AustinBreslinDev</description>
-        <link>http://localhost:4000</link>
+        <link>http://yourdomain.com/</link>
         
 	<item>
 		<title>Yo Jekyll!</title>
 		<description>Yo to the world of Jekyll</description>
 		<published>2013-09-08 00:00:00 +0100</published>
-		<link>http://localhost:4000/blog/yo-jekyllrb/</link>
+		<link>http://yourdomain.com//blog/yo-jekyllrb/</link>
 	</item>
 
 	<item>
 		<title>Welcome to Jekyll!</title>
 		<description>You'll find this post in your `_posts` directory ...</description>
 		<published>2013-09-08 00:00:00 +0100</published>
-		<link>http://localhost:4000/blog/welcome-to-jekyll/</link>
+		<link>http://yourdomain.com//blog/welcome-to-jekyll/</link>
 	</item>
 
 	<item>
 		<title>The Setup</title>
 		<description>An overview of the hardware and software I use every day.</description>
 		<published>2013-07-02 00:00:00 +0100</published>
-		<link>http://localhost:4000/blog/the-setup/</link>
+		<link>http://yourdomain.com//blog/the-setup/</link>
 	</item>
 
 	<item>
 		<title>Code Snippets</title>
 		<description>Quick overview on how to post code snippets using Liquid tags and how to escape or not escape markdown and HTML in your blog entries.</description>
 		<published>2012-02-10 00:00:00 +0000</published>
-		<link>http://localhost:4000/design/code-snippets/</link>
+		<link>http://yourdomain.com//design/code-snippets/</link>
 	</item>
 
 	<item>
 		<title>Using the Web Icons</title>
 		<description>Quick overview on how to use the Typicon web font icons included with this template.</description>
 		<published>2012-01-19 00:00:00 +0000</published>
-		<link>http://localhost:4000/design/using-web-icons/</link>
+		<link>http://yourdomain.com//design/using-web-icons/</link>
 	</item>
 
 	<item>
 		<title>Hello World!</title>
 		<description>Hello World! Vestibulum imperdiet adipiscing arcu, quis aliquam dolor condimentum dapibus. Aliquam fermentum leo aliquet quam volutpat et molestie mauris mattis. Suspendisse semper consequat velit in suscipit.</description>
 		<published>2012-01-18 00:00:00 +0000</published>
-		<link>http://localhost:4000/meta/hello-world/</link>
+		<link>http://yourdomain.com//meta/hello-world/</link>
 	</item>
 
 	
