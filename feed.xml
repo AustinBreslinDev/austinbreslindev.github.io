@@ -6,35 +6,87 @@
 </description>
     <link>https://austinbreslindev.github.io/</link>
     <atom:link href="https://austinbreslindev.github.io/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Sun, 12 Aug 2018 16:56:41 +0100</pubDate>
-    <lastBuildDate>Sun, 12 Aug 2018 16:56:41 +0100</lastBuildDate>
+    <pubDate>Sun, 12 Aug 2018 19:35:00 +0100</pubDate>
+    <lastBuildDate>Sun, 12 Aug 2018 19:35:00 +0100</lastBuildDate>
     <generator>Jekyll v3.8.3</generator>
     
       <item>
-        <title>Welcome to Jekyll!</title>
-        <description>&lt;p&gt;You’ll find this post in your &lt;code class=&quot;highlighter-rouge&quot;&gt;_posts&lt;/code&gt; directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run &lt;code class=&quot;highlighter-rouge&quot;&gt;jekyll serve&lt;/code&gt;, which launches a web server and auto-regenerates your site when a file is updated.&lt;/p&gt;
+        <title>Think about accessibility</title>
+        <description>&lt;p&gt;Why we all need to start working on accessibility now and not later? Well that is 
+because we all want to deliver an excellent product for our users, we want to 
+display our skills and be proud of the thing that we built. We want everyone to 
+share in this experience.&lt;/p&gt;
 
-&lt;p&gt;To add new posts, simply add a file in the &lt;code class=&quot;highlighter-rouge&quot;&gt;_posts&lt;/code&gt; directory that follows the convention &lt;code class=&quot;highlighter-rouge&quot;&gt;YYYY-MM-DD-name-of-post.ext&lt;/code&gt; and includes the necessary front matter. Take a look at the source for this post to get an idea about how it works.&lt;/p&gt;
+&lt;p&gt;How annoyed are you when users give you negative feedback and don’t lie about 
+this. I know that feedback means that you can make your product even better and 
+who doesn’t want to make a better product to learn and grow.&lt;/p&gt;
 
-&lt;p&gt;Jekyll also offers powerful support for code snippets:&lt;/p&gt;
+&lt;p&gt;Well imagine that there are many people out there who can’t use your product as 
+it stands right now, they won’t give you feedback because they are used to poor 
+experiences no matter where they go?&lt;/p&gt;
 
-&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt;&lt;span class=&quot;k&quot;&gt;def&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;print_hi&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
-  &lt;span class=&quot;nb&quot;&gt;puts&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;Hi, &lt;/span&gt;&lt;span class=&quot;si&quot;&gt;#{&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;si&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;&lt;/span&gt;
-&lt;span class=&quot;k&quot;&gt;end&lt;/span&gt;
-&lt;span class=&quot;n&quot;&gt;print_hi&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;'Tom'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
-&lt;span class=&quot;c1&quot;&gt;#=&amp;gt; prints 'Hi, Tom' to STDOUT.&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+&lt;p&gt;Or since your a developer, I’ll assume that you are a power user with your 
+keyboard, imagine if your &lt;abbr title=&quot;Integrated Development Environment&quot;&gt;
+IDE&lt;/abbr&gt; didn’t have your keyboard shortcuts, think I’m wrong? Try to stop using
+copy and paste.&lt;/p&gt;
 
-&lt;p&gt;Check out the &lt;a href=&quot;http://jekyllrb.com/docs/home&quot;&gt;Jekyll docs&lt;/a&gt; for more info on how to get the most out of Jekyll. File all bugs/feature requests at &lt;a href=&quot;https://github.com/jekyll/jekyll&quot;&gt;Jekyll’s GitHub repo&lt;/a&gt;. If you have questions, you can ask them on &lt;a href=&quot;https://talk.jekyllrb.com/&quot;&gt;Jekyll Talk&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;If you haven’t built a website that is accessible, you have inadvertently built a 
+site that is missing your own favorite features, now doesn’t this sound silly? 
+This is why you need to start doing accessibility now.&lt;/p&gt;
 
+&lt;hr /&gt;
+&lt;p&gt;&lt;abbr title=&quot;For your information&quot;&gt;FYI&lt;/abbr&gt;: I am not a UX/UI Developer&lt;/p&gt;
+
+&lt;p&gt;Accessibility is usually completely mis-represented within the web development
+community. When you think of accessibility you probably go straight into 
+thinking about &lt;abbr title=&quot;Accessible Rich Internet Applications&quot;&gt;ARIA&lt;/abbr&gt;, 
+as if it just something that gets tacked onto your website and this will solve 
+all your problems.&lt;/p&gt;
+
+&lt;p&gt;After having worked in the computer industry for so long professionally, since
+IE 8, I see businesses think that ARIA is the solution to an accessible web.&lt;/p&gt;
+
+&lt;h4 id=&quot;so-what-does-aria-achieve&quot;&gt;So what does &lt;abbr title=&quot;Accessible Rich Internet Applications&quot;&gt;ARIA&lt;/abbr&gt; achieve?&lt;/h4&gt;
+&lt;p&gt;ARIA is a tool to fill in the gaps between Visual and Non-Visual users. It will
+not solve all accessibility problems for you because it isn’t context aware, it’s 
+not AI after all. We the web &lt;abbr title=&quot;Developer&quot;&gt;dev&lt;/abbr&gt; are the only 
+people/things that are context aware in the process of designing the user experience (&lt;abbr title=&quot;User Experience&quot;&gt;UX&lt;/abbr&gt;).&lt;/p&gt;
+
+&lt;h4 id=&quot;what-is-an-accessible-web&quot;&gt;What is an accessible web?&lt;/h4&gt;
+&lt;p&gt;My definition would be:&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;An accessible website is a website that caters for all types of users and 
+provides them all a comparable experience.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;How you achieve this is by thinking about all your users types at all times during
+the &lt;abbr title=&quot;Software Development Life Cycle&quot;&gt;SDLC&lt;/abbr&gt;. Are there any tips
+for this? A simple technique that I have heard from many 
+&lt;abbr title=&quot;User Experience&quot;&gt;UX&lt;/abbr&gt; developers is that you should give each 
+of your user types a name and characteristics. This is an analog hack to make it 
+easier for you and your whole team.&lt;/p&gt;
+
+&lt;hr /&gt;
+&lt;h4 id=&quot;conclusion&quot;&gt;Conclusion:&lt;/h4&gt;
+
+&lt;p&gt;This post is getting too long, so I will follow up with a post about the personas 
+that every website needs to use.&lt;/p&gt;
+
+&lt;p&gt;It’s hard to convince people to change even if they know they should. This post 
+was an attempt to for all of us to identify the missing features, yes features 
+within our website.&lt;/p&gt;
+
+&lt;p&gt;Thinking about accessibility is about thinking about the usability of your 
+website for all of your users including yourself.&lt;/p&gt;
 </description>
-        <pubDate>Mon, 02 May 2016 15:28:59 +0100</pubDate>
-        <link>https://austinbreslindev.github.io/categories/jekyll/update/welcome-to-jekyll/</link>
-        <guid isPermaLink="true">https://austinbreslindev.github.io/categories/jekyll/update/welcome-to-jekyll/</guid>
+        <pubDate>Sun, 12 Aug 2018 09:07:00 +0100</pubDate>
+        <link>https://austinbreslindev.github.io/categories/web/accessibility/think-about-accessibility/</link>
+        <guid isPermaLink="true">https://austinbreslindev.github.io/categories/web/accessibility/think-about-accessibility/</guid>
         
         
-        <category>jekyll</category>
+        <category>web</category>
         
-        <category>update</category>
+        <category>accessibility</category>
         
       </item>
     
