@@ -1,14 +1,8 @@
 CACHE MANIFEST
-#version02
+#version03
 
 #files that explicitly cached
 CACHE:
-#index.html
-#contact/index.html
-#style.css
-#script.js
-#mousetrap.js
-#favicon.ico
 https://cdn.polyfill.io/v2/polyfill.min.js
 https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.4.0/highlight.min.js
 https://cdnjs.cloudflare.com/ajax/libs/picturefill/3.0.3/picturefill.min.js
@@ -21,3 +15,4 @@ NETWORK:
 feed.xml
 
 FALLBACK:
+index.html

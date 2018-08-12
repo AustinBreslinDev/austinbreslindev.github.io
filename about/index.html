@@ -1,103 +1,124 @@
 <!DOCTYPE html>
-<html lang="en" manifest="/resourcelist.manifest">
+<html lang="en">
 
-<head>
-    <meta charset="utf-8" />
-    <meta name="description" content="A blog about the experiences of AustinBreslinDev" />
-    <meta name="author" content="Austin Breslin" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta name="theme-color" content="#ee6e73"/>
-    <title> About |  AustinBreslinDev</title>
-    <link rel="author" href="/humans.txt" />
-    <link rel="alternate" type="application/rss+xml" title="RSS Feed" href="/feed.xml" />
-    <link rel="manifest" href="/manifest.json">
-
-    <!-- Start of third party -->
-    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
-    <link rel="stylesheet" href="https://unpkg.com/purecss@1.0.0/build/pure-min.css" integrity="sha384-nn4HPE8lTHyVtfCBi5yW9d20FjT8BJwUXyWZT9InLYax14RDjBj46LmSztkmNP9w" crossorigin="anonymous">
-    <link rel="stylesheet" href="https://unpkg.com/purecss@1.0.0/build/grids-responsive-min.css">
-    <script src="https://cdn.polyfill.io/v2/polyfill.min.js"></script>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.4.0/styles/default.min.css">
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.4.0/highlight.min.js"></script>
-    <!-- End of third party -->
-
-    <link rel="stylesheet" href="/style.css" />
+  <head>
+  <title>About | AustinBreslinDev</title>
+  
+  <link rel="stylesheet" href="/css/styles.css">
+  <!-- Start of third party -->
+  <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+  <link rel="stylesheet" href="https://unpkg.com/purecss@1.0.0/build/pure-min.css" integrity="sha384-nn4HPE8lTHyVtfCBi5yW9d20FjT8BJwUXyWZT9InLYax14RDjBj46LmSztkmNP9w" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://unpkg.com/purecss@1.0.0/build/grids-responsive-min.css">
+  <script src="https://cdn.polyfill.io/v2/polyfill.min.js"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.4.0/styles/default.min.css">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.4.0/highlight.min.js"></script>
+  <!-- End of third party -->
+  
+  <link rel="canonical" href="https://austinbreslindev.github.io/about/">
+  <link rel="alternate" type="application/rss+xml" title="AustinBreslinDev" href="https://austinbreslindev.github.io/feed.xml">
+  <link rel="manifest" href="/manifest.json">
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Developer blog by AustinBreslinDev. Discussing and showing different aspects of programming in various programming languages. Java, C#, JavaScript, Typescript.
+">
 </head>
 
-<body class="austinBreslinDev">
+
+  <body class="austinBreslinDev">
     <div class="footer-hack">
-        <div id="skip" class="">
-            <a href="">
-                Type "skip" using your keyboard at any time to return or skip to the main content of the page.
-            </a>
-            <p aria-hidden="false" style="display: none;">
-                Enter <kbd>?</kbd> on your keyboard to see the list of available keyboard shortcuts.
-            </p>
+      <header class="site-header">
+    <div id="skip" class="">
+        <a href="">
+            Type "nav" using your keyboard at any time to return to the navigation or "skip" to get to
+             the main content of the page.
+        </a>
+        <p aria-hidden="false" style="display: none;">
+            Enter <kbd>?</kbd> on your keyboard to see the list of available keyboard shortcuts.
+        </p>
+    </div>
+
+    <aside class="popup modal" id="keyboardShortcuts" aria-live="polite">
+    <template aria-hidde="true" hidden="true">
+        <div>
+            <li class="collection-item pure-u-1" tabindex="0">
+                <span class="pure-u-2-24">
+                    <kbd class="pure-button chip">skip</kbd>
+                </span>
+                <div class="pure-u-21-24 right">
+                    Skip to main section of page
+                </div> 
+            </li>
         </div>
-    
-        <aside class="popup modal pure-u-1-1 hidden" aria-hidden="true" hidden="true" id="keyboardShortcuts" aria-live="polite" aria-busy="true">
-            <div aria-hidde="true" hidden="true" id="keyboardShortcutTemplate">
-                <li class="collection-item">
-                    <span class="badge">
-                        <kbd>skip</kbd>
-                    </span>
-                    <div>Skip to main section of page</div>
-                </li>
+    </template>
+    <div class="modal-container visuallyhidden">
+        <aside class="modal-background" aria-hidden="true"></aside>
+        <div class="modal-popup fade in" tabindex="0">
+            <a class="visuallyhidden">A table of contents for the current pages registered keyboard shortcuts</a>
+            <div class="modal-header">
+                <h4>List Of Keyboard Shortcuts</h4>
             </div>
             <div class="modal-content">
-                <ul class="collection with-header">
-                    <li class="collection-header">
-                        <h4>List Of Keyboard Shortcuts</h4>
-                    </li>
-                    <li class="collection-item">
-                        <span class="badge">
-                            Keys
+                <ul class="collection with-header pure-g">
+                    <li class="collection-header collection-item pure-u-1" tabindex="0">
+                        <span class="pure-u-2-24">
+                            Key/Keys
                         </span>
-                        <div>Description</div>
+                        <div class="pure-u-21-24 right">
+                            Description
+                        </div>
                     </li>
                 </ul>
             </div>
-        </aside>
-    
-        <nav class="custom-menu-wrapper">
-            <div class="pure-menu custom-menu custom-menu-top">
-                <a href="/" class="pure-menu-heading custom-menu-brand">AustinBreslinDev</a>
-                <a href="#" class="custom-menu-toggle" id="toggle"><s class="bar"></s><s class="bar"></s></a>
+            <div class="modal-footer">
+
             </div>
-            <div class="pure-menu pure-menu-horizontal pure-menu-scrollable custom-menu custom-menu-bottom custom-menu-tucked" id="tuckedMenu">
-                <div class="custom-menu-screen"></div>
-                <ul class="pure-menu-list">
-                    <li class="pure-menu-item">
-                        <a href="/" class="pure-menu-link">Home</a>
-                    </li>
-                    <li class="pure-menu-item">
-                        <a href="/about" class="pure-menu-link">About</a>
-                    </li>
-                    <li class="pure-menu-item">
-                        <a href="/contact" class="pure-menu-link">Contact</a>
-                    </li>
-                </ul>
-            </div>
-        </nav>
-    
-        <main class="pure-u-1-1">
-            <article class="pure-g content-container">
+        </div>
+    </div>
+</aside>
+
+    <nav class="custom-menu-wrapper">
+        <div class="pure-menu custom-menu custom-menu-top">
+            <a href="/" class="pure-menu-heading custom-menu-brand">AustinBreslinDev</a>
+            <a href="" class="custom-menu-toggle" id="toggle"><s class="bar"></s><s class="bar"></s></a>
+        </div>
+        <div class="pure-menu pure-menu-horizontal pure-menu-scrollable custom-menu custom-menu-bottom custom-menu-tucked" id="tuckedMenu">
+            <div class="custom-menu-screen"></div>
+            <ul class="pure-menu-list">
+                <li class="pure-menu-item">
+                    <a href="/" class="pure-menu-link">Home</a>
+                </li>
+                <li class="pure-menu-item">
+                    <a href="/about" class="pure-menu-link">About</a>
+                </li>
+                <li class="pure-menu-item">
+                    <a href="/contact" class="pure-menu-link">Contact</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+</header>
+
+  
+      <main class="pure-u-1-1">
+        <div class="content-container">
+          <article class="pure-g">
     <div class="pure-u-1">
         <h3>Background:</h3>
         <p>
-            Nearly everyone who is a developer or IT technician has an interesting story about how they got introduced to programming. 
+            Nearly everyone who is a developer or IT technician has an interesting story about how they got introduced to programming.
         </p>
         <p>
-            There was a game that came with the computer that was in my house that I played a lot, maybe too much. The computer was 
-            becoming slow. I decided that I would fix this.
+            There was a game that came with the computer that was in my house that I played a lot, maybe too much. The computer was becoming
+            slow. I decided that I would fix this.
         </p>
         <p>
-            I took the computer apart, not really knowing if that would solve the problem but at least it would give me a clue.
-            My family watched in horror, because they thought I had broken the computer. I could not imagine me watching
-            a child take apart a computer without jumping in to stop them.
+            I took the computer apart, not really knowing if that would solve the problem but at least it would give me a clue. My family
+            watched in horror, because they thought I had broken the computer. I could not imagine me watching a child take
+            apart a computer without jumping in to stop them.
         </p>
         <p>
-            I put the computer back together and somehow stumbled across disk cleanup and disk defrag and this resolved the problem. 
+            I put the computer back together and somehow stumbled across disk cleanup and disk defrag and this resolved the problem.
             I could now play the game again without losing any FPS.
         </p>
     </div>
@@ -106,9 +127,8 @@
             Why this website?
         </h3>
         <p>
-            This website really is just an archiving system for me, while at the same time sharing any tips 
-            and tricks that I learn while programming. It will also have some computer repair and mobile repair
-            on occasion as I still do that.
+            This website really is just an archiving system for me, while at the same time sharing any tips and tricks that I learn while
+            programming. It will also have some computer repair and mobile repair on occasion as I still do that.
         </p>
         <p>
             The languages that I have used/tried learning in the past or I am currently work with are:
@@ -123,13 +143,12 @@
                     Python. Used it for the easy introduction to desktop GUI apps through WXPython.
                 </li>
                 <li>
-                    MatLab, this was for academic/mathematical reasons and I did not really use it.
-                    But I did like creating graphs with it, but obviously this was the niche this language
-                    was created for.
+                    MatLab, this was for academic/mathematical reasons and I did not really use it. But I did like creating graphs with it, but
+                    obviously this was the niche this language was created for.
                 </li>
                 <li>
-                    JavaScript, used this mostly within the browser, but have written scripts in NodeJS.
-                    This website is built using NodeJS and a few custom build scripts.
+                    JavaScript, used this mostly within the browser, but have written scripts in NodeJS. This website is built using NodeJS and
+                    a few custom build scripts.
                 </li>
                 <li>
                     HTML and CSS, from HTML4 to 5 and CSS 2 to 3.
@@ -138,67 +157,77 @@
                     SCSS, this site is built using SCSS/SASS.
                 </li>
                 <li>
-                    Ruby, this site has some custom scripts written in Ruby, but I wouldn't say I know any
-                    Ruby what so ever, but the documentation is easy to follow.
+                    Ruby, this site has some custom scripts written in Ruby, but I wouldn't say I know any Ruby what so ever, but the documentation
+                    is easy to follow.
                 </li>
                 <li>
-                    TypeScript, used this to scale my JavaScript. Use this on a day to day basis now instead
-                    of JavaScript. Really like how it's still JavaScript but for developers.
+                    TypeScript, used this to scale my JavaScript. Use this on a day to day basis now instead of JavaScript. Really like how it's
+                    still JavaScript but for developers.
                 </li>
                 <li>
-                    Rust, I have only started learning this language, but from my learning this language
-                    is under-utilized within the industry right now. 
+                    Rust, I have only started learning this language, but from my learning this language is under-utilized within the industry
+                    right now.
                 </li>
             </ul>
         </p>
 
         <p>
             Languages that I keep wanting to learn or just play around with:
-            <li>
-                C, I tried C++, you need to know C before you can move onto C++, but from reading online, 
-                if you know C there is no need to learn C++. But I can't judge yet.
-            </li>
-            <li>
-                Go lang, seems to have more backing than Rust but less than NodeJS. Even one of the main NodeJS 
-                devs in the past left NodeJS to work on Go, this is one that I will definitely look into.
-            </li>
-            <li>
-                Groovy, really so that I have a scripting language that works within the terminal.
-            </li>
-            <li>
-                Kotlin, this one seems particularly interesting to me, because I started with Java. It has made some serious
-                claims. Basically stating it is Java done correctly. I'm badly paraphrasing here, I know.
-            </li>
-            <li>
-                Swift, only reason is because I started my career in a large company and needed to support all devices. If I personally
-                 had a choice I wouldn't even bother looking into this language. So there is a good chance I never go into this.
-            </li>
+            <ul>
+                <li>
+                    C, I tried C++, you need to know C before you can move onto C++, but from reading online, if you know C there is no need
+                    to learn C++. But I can't judge yet.
+                </li>
+                <li>
+                    Go lang, seems to have more backing than Rust but less than NodeJS. Even one of the main NodeJS devs in the past left NodeJS
+                    to work on Go, this is one that I will definitely look into.
+                </li>
+                <li>
+                    Groovy, really so that I have a scripting language that works within the terminal.
+                </li>
+                <li>
+                    Kotlin, this one seems particularly interesting to me, because I started with Java. It has made some serious claims. Basically
+                    stating it is Java done correctly. I'm badly paraphrasing here, I know.
+                </li>
+                <li>
+                    Swift, only reason is because I started my career in a large company and needed to support all devices. If I personally had
+                    a choice I wouldn't even bother looking into this language. So there is a good chance I never go into this.
+                </li>
+            </ul>
         </p>
     </div>
 
     <div class="pure-u-1">
-        <h3>
+        <p>
             As you can see my interest is programming and programming techniques, data structures and designs. By using many different
-             languages I get a glimpse into the mind of the creator and I get better at programming that way. Expect me to compare languages
-             all the time. Unless specific I will try to do each technique or alternative technique in as many languages as time permits.
-        </h3>
+            languages I get a glimpse into the mind of the creator and I get better at programming that way. Expect me to
+            compare languages all the time. Unless specific I will try to do each technique or alternative technique in as
+            many languages as time permits.
+        </p>
     </div>
 </article>
-        </main>
+        </div>
+      </main>
     </div>
 
-
     <footer class="pure-u-1-1">
-        <div class="footer-container">
-            <div class="footer-copyright">
-                <div class="container">
-                    <p>
-                        &copy; 2018 Austin Breslin
-                    </p>
-                </div>
+    <div class="footer-container">
+        <div class="footer-copyright">
+            <div class="container">
+                <p>
+                    &copy; 2018 Austin Breslin
+                </p>
+                <p class="rss-subscribe">
+                    subscribe 
+                    <a href="/feed.xml">
+                        via RSS
+                    </a>
+                </p>
             </div>
         </div>
-    </footer>
-</body>
-<script src="/script.js"></script>
+    </div>
+</footer>
+<script type="text/javascript" src="/js/app.bundle.js" charset="utf-8"></script>
+  </body>
+
 </html>
